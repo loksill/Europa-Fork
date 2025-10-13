@@ -1,0 +1,13 @@
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: RecipeSprayBottleStypticPowderEmpty
+  result: SprayBottleStypticPowderEmpty
+  materials:
+    Plastic: 100
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: RecipeSprayBottleSilverSulfadiazineEmpty
+  result: SprayBottleSilverSulfadiazineEmpty
+  materials:
+    Plastic: 100
