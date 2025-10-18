@@ -83,8 +83,6 @@
       path: /Audio/Weapons/Guns64/Revolvers/revolver_spun.ogg
     soundEject:
       path: /Audio/Weapons/Guns64/Revolvers/revolver_unload.ogg
-  - type: PumpAction
-    sound: /Audio/Weapons/Guns64/Revolvers/revolver_cocked.ogg
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns64/Revolvers/44mag.ogg
@@ -114,8 +112,6 @@
         - CartridgeRevolver38Special
         - SpeedLoader38Special
     proto: CartridgeRevolver38Special
-  - type: PumpAction
-    sound: /Audio/Weapons/Guns64/Revolvers/revolver_cocked.ogg
   - type: Gun
     fireRate: 1
     soundGunshot:
@@ -148,8 +144,6 @@
         - CartridgeRevolver38Special
         - SpeedLoader38Special
     proto: CartridgeRevolver38Special
-  - type: PumpAction
-    sound: /Audio/Weapons/Guns64/Revolvers/revolver_cocked.ogg
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns64/Revolvers/revolver.ogg

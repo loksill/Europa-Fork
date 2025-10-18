@@ -283,8 +283,6 @@
     whitelist:
       tags:
       - CartridgeRifle300win
-  - type: PumpAction
-    sound: /Audio/Weapons/Guns64/Snipers/kt42_cocked.ogg
   - type: Wieldable
   - type: UseDelay
     delay: 2.8
