@@ -16,8 +16,6 @@
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp5/tiny.rsi
   - type: Item
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp5/tiny.rsi
-  - type: BkmGunWieldBonus
-    cameraRecoilScalar: -4
   - type: GunWieldBonus
     minAngle: -22
     maxAngle: 0
@@ -84,8 +82,6 @@
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp7/tiny.rsi
   - type: Item
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp7/tiny.rsi
-  - type: BkmGunWieldBonus
-    cameraRecoilScalar: -2
   - type: GunWieldBonus
     minAngle: -10
     maxAngle: 0
@@ -144,8 +140,6 @@
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/vector/tiny.rsi
   - type: Item
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/vector/tiny.rsi
-  - type: BkmGunWieldBonus
-    cameraRecoilScalar: -4
   - type: GunWieldBonus
     minAngle: -22
     maxAngle: -28
@@ -256,8 +250,6 @@
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp38/tiny.rsi
   - type: Item
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp38/tiny.rsi
-  - type: BkmGunWieldBonus
-    cameraRecoilScalar: -4
   - type: GunWieldBonus
     minAngle: -22
     maxAngle: 0
@@ -365,8 +357,6 @@
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/ppsh41/tiny.rsi
   - type: Item
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/ppsh41/tiny.rsi
-  - type: BkmGunWieldBonus
-    cameraRecoilScalar: -4
   - type: GunWieldBonus
     minAngle: -22
     maxAngle: 0
@@ -427,8 +417,6 @@
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/p90.rsi
   - type: Item
     sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/p90.rsi
-  - type: BkmGunWieldBonus
-    cameraRecoilScalar: -4.2
   - type: GunWieldBonus
     minAngle: -22
     maxAngle: 0
