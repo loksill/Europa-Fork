@@ -41,7 +41,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 5750
-    
+
 - type: entity
   name: лазерная пуля
   id: X01Attack
@@ -86,25 +86,6 @@
     soundHit:
       collection: MeatLaserImpact
 
-- type: entity
-  id: BulletImpactEffectRedDisabler
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: TimedDespawn
-    lifetime: 0.2
-  - type: Sprite
-    drawdepth: Effects
-    layers:
-    - shader: unshaded
-      map: ["enum.EffectLayers.Unshaded"]
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
-      state: impact_laser_greyscale
-      color: red
-  - type: EffectVisuals
-  - type: Tag
-    tags:
-    - HideContextMenu
-    
 - type: entity
   name: 45MW.TRG
   parent: BaseWeaponBatterySmall
