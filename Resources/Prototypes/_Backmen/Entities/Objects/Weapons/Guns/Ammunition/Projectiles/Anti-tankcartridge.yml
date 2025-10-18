@@ -12,5 +12,5 @@
         Structural: 400
   - type: StaminaDamageOnCollide
     damage: 100
-  - type:  Sprite
+  - type: Sprite
     scale: 2.0,2.0
