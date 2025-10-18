@@ -511,7 +511,6 @@
   - type: Wieldable
   - type: UseDelay
     delay: 1.5
-  - type: Telescope # backmen: immersive
 
 - type: entity
   name: BR-64
@@ -573,7 +572,6 @@
   - type: Wieldable
   - type: UseDelay
     delay: 1.3
-  - type: Telescope # backmen: immersive
 
 - type: entity
   name: V-31 assault rifle
@@ -766,7 +764,6 @@
   - type: Wieldable
   - type: UseDelay
     delay: 1
-  - type: Telescope # backmen: immersive
 
 - type: entity
   name: SCARAB

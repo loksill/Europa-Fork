@@ -66,7 +66,6 @@
   - type: Wieldable
   - type: UseDelay
     delay: 1.5
-  - type: Telescope # backmen: immersive
 
 - type: entity
   name: SR-127 Bauer bolt action rifle
@@ -129,7 +128,6 @@
   - type: Wieldable
   - type: UseDelay
     delay: 1.3
-  - type: Telescope # backmen: immersive
 
 - type: entity
   name: Kardashev-Mosin
@@ -157,7 +155,6 @@
   - type: UseDelay
     delay: 0.8
   - type: GunRequiresWield
-  - type: Telescope # backmen: immersive
 
 - type: entity
   name: M1 Garand
@@ -188,7 +185,6 @@
   - type: UseDelay
     delay: 0.8
   - type: GunRequiresWield
-  - type: Telescope # backmen: immersive
 
 - type: entity
   name: Kardashev-Mosin AI
@@ -294,4 +290,3 @@
     delay: 2.8
   - type: UseDelayOnShoot
   - type: GunRequiresWield
-  - type: Telescope # Ataraxia
