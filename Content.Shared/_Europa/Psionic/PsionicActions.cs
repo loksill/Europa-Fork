@@ -72,23 +72,24 @@ public sealed class PsionicActions : EntitySystem
             actions.GrantedActions.Add(mindSwapAction);
             actions.GrantedActionIds.Add("ActionMindSwap");
         }
-
-        /// <summary>
-        /// Удаляем все Actions
-        /// </summary>
-        private void RemovePsionicActions(EntityUid uid)
-        {
-            if (!TryComp<PsionicActionsComponent>(uid, out var actions))
-                return;
-
-            foreach (var action in actions.GrantedActions)
-            {
-                _actions.RemoveAction(uid, action);
-            }
-
-            RemComp<PsionicActionsComponent>(uid);
-        }
     }
+
+    /// <summary>
+    /// Удаляем все Actions
+    /// </summary>
+    private void RemovePsionicActions(EntityUid uid)
+    {
+        if (!TryComp<PsionicActionsComponent>(uid, out var actions))
+            return;
+
+        foreach (var action in actions.GrantedActions)
+        {
+            _actions.RemoveAction(uid, action);
+        }
+
+        RemComp<PsionicActionsComponent>(uid);
+    }
+
 
     /// <summary>
     /// Обновляем действия при изменении уровня силы
