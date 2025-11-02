@@ -242,4 +242,10 @@ public sealed partial class CCVars : CVars
     /// </summary>
     public static readonly CVarDef<bool> DebugPow3rDisableParallel =
         CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
+
+    /// <summary>
+    /// Процент псиоников среди кандидатов (от 0.0 до 1.0)
+    /// </summary>
+    public static readonly CVarDef<float> PsionicPercentage =
+        CVarDef.Create("game.psionic_percentage", 0.1f, CVar.SERVERONLY);
 }
