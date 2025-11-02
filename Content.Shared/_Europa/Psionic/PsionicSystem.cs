@@ -77,7 +77,7 @@ public sealed class PsionicsSystem : EntitySystem
         }
 
         // Выбираем способность
-        component.PowerLevel = _random.NextFloat(1.0f, 2.0f)
+        component.PowerLevel = _random.NextFloat(1.0f, 2.0f);
 
         Logger.InfoS("psionics", $"Сущность {uid} стала псиоником со способностью: {component.PowerLevel}"); // Логиируем
 
