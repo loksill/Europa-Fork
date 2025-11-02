@@ -5,10 +5,10 @@
   requirements:
     - psionicPower: 1.0
   icon:
-    sprite: Objects/Weapons/Grenades/incendiary.rsi.png
+    sprite: Objects/Weapons/Grenades/incendiary.rsi
     state: obj-0
   iconOn:
-    sprite: Objects/Weapons/Grenades/incendiary.rsi.png
+    sprite: Objects/Weapons/Grenades/incendiary.rsi
     state: obj-0
   useDelay: 5.0
   description: Поджигает выбранную цель.
@@ -21,10 +21,10 @@
   requirements:
     - psionicPower: 2.0
   icon:
-    sprite: Interface/Actions/mindswap.rsi.png
+    sprite: Interface/Actions/mindswap.rsi
     state: icon
   iconOn:
-    sprite: Interface/Actions/mindswap.rsi.png
+    sprite: Interface/Actions/mindswap.rsi
     state: icon
   useDelay: 30.0
   description: Меняет сознание местами с выбранной целью на ограниченное время.
