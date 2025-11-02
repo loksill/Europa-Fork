@@ -6,6 +6,7 @@ using Robust.Shared.IoC;
 using Robust.Server.GameObjects;
 using Robust.Shared.Utility;
 using Content.Shared._Europa.Psionic.Component;
+using Content.Shared._Europa.Psionic.Actions;
 
 namespace Content.Shared._Europa.Psionic;
 

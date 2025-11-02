@@ -8,8 +8,11 @@ using Content.Shared._Europa.Psionic;
 using Content.Server.Mind;
 using Content.Server.Mind.Components;
 using Content.Server.Atmos.EntitySystems;
-using Content.Shared.FlamMable;
-
+using Content.Server.Atmos.Components;
+using Content.Shared.Atmos.EntitySystems;
+using Content.Shared.Atmos.Components;
+using Content.Shared.Damage;
+using Content.Shared.Damage.Systems;
 
 namespace Content.Shared._Europa.Psionic.Actions;
 
