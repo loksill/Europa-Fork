@@ -5,10 +5,11 @@ using Robust.Shared.GameObjects;
 using Robust.Shared.IoC;
 using Robust.Server.GameObjects;
 using Robust.Shared.Utility;
-using Content.Shared._Europa.Psionic.Component;
-using Content.Shared._Europa.Psionic.Actions;
+using Content.Server._Europa.Psionic.Components;
+using Content.Server._Europa.Psionic.Actions;
+using Content.Server.GameTicking.Events;
 
-namespace Content.Shared._Europa.Psionic;
+namespace Content.Server._Europa.Psionic;
 
 public sealed class PsionicsSystem : EntitySystem
 {
@@ -21,13 +22,13 @@ public sealed class PsionicsSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<RoundStartEvent>(OnRoundStart);
+        SubscribeLocalEvent<RoundStartingEvent>(OnRoundStart);
     }
 
     /// <summary>
     /// Распределяем псиоников
     /// </summary>
-    private void OnRoundStart(RoundStartEvent args)
+    private void OnRoundStart(RoundStartingEvent args)
     {
         AssignPsionicRoles();
     }

@@ -3,10 +3,10 @@ using Robust.Shared.IoC;
 using Robust.Shared.Prototypes;
 using Robust.Server.GameObjects;
 using Content.Shared.Actions;
-using Content.Shared._Europa.Psionic.Components;
-using Content.Shared._Europa.Psionic;
+using Content.Server._Europa.Psionic.Components;
+using Content.Server._Europa.Psionic;
 using Content.Server.Mind;
-using Content.Server.Mind.Components;
+using Content.Shared.Mind;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Atmos.Components;
 using Content.Shared.Atmos.EntitySystems;
@@ -31,6 +31,7 @@ public sealed class PsionicActions : EntitySystem
         SubscribeLocalEvent<PsionicActionsComponent, ComponentShutdown>(OnActionsShutdown);
 
         SubscribeLocalEvent<MindSwapActionComponent, MindSwapEvent>(OnMindSwap);
+        SubscribeLocalEvent<FlammableComponent, PsionicInflammationEvent>(OnPsionicInflammation);
     }
 
     private void OnPsionicStartup(EntityUid uid, PsionicComponent component, ComponentStartup args)

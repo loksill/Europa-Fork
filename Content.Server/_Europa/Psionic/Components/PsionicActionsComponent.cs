@@ -2,7 +2,7 @@ using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
-namespace Content.Shared._Europa.Psionic.Components;
+namespace Content.Server._Europa.Psionic.Components;
 
 [RegisterComponent]
 public sealed partial class PsionicActionsComponent : Component
