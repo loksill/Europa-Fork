@@ -14,7 +14,7 @@ using Content.Shared.Atmos.Components;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
 
-namespace Content.Shared._Europa.Psionic.Actions;
+namespace Content.Server._Europa.Psionic.Actions;
 
 public sealed class PsionicActions : EntitySystem
 {
