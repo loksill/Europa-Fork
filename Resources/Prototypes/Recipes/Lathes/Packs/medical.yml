@@ -55,6 +55,8 @@
   - DiseaseSwab
   - BodyBag
   - WhiteCane
+  - RecipeSprayBottleStypticPowderEmpty # Europe edited
+  - RecipeSprayBottleSilverSulfadiazineEmpty # Europe edited
 
 - type: latheRecipePack
   id: RollerBedsStatic
